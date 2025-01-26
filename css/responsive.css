@@ -47,10 +47,6 @@
     }
 
     /* PROJECT */
-    summary {
-        border-color: var(--black);
-    }
-
     summary:hover {
         cursor: pointer;
     }
