@@ -1,3 +1,14 @@
+/*
+Desktop styles:
+- Header
+- Main
+- Sections
+- Project tiles
+- Contact section
+- Headings
+- Paragraphs
+*/
+
 @media (min-width: 64em) {
     /* HEADER */
     header {
