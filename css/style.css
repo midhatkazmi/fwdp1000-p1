@@ -182,8 +182,3 @@ a {
 a:visited {
 	color: currentColor;
 }
-
-/* ABBREVIATION */
-abbr:focus:after {
-	content: ' ('attr(title)')';
-}
