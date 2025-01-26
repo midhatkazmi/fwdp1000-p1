@@ -1,0 +1,133 @@
+@media (min-width: 64em) {
+    /* HEADER */
+    header {
+        top: 0;
+        order: 0;
+        z-index: 1;
+        padding: 0 8rem;
+    }
+    
+    header div.content {
+        max-width: 64rem;
+        margin: 0 auto;
+    }
+
+    header ul {
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    header a {
+        padding: 1rem;
+    }
+
+    header a:hover,
+    header a:focus {
+        text-decoration: underline;
+    }
+
+    header a:active {
+        color: var(--accent);
+    }
+
+    /* MAIN */
+    main {
+        max-width: 64rem;
+        margin: 0 auto;
+    }
+
+    /* SECTION */
+    section {
+        padding: 8rem;
+        scroll-margin: 3.75rem;
+    }
+
+    section + section {
+        padding-top: 0;
+    }
+
+    /* PROJECT */
+    summary {
+        border-color: var(--black);
+    }
+
+    summary:hover {
+        cursor: pointer;
+    }
+
+    details[open] summary {
+        padding-bottom: 1rem;
+
+        border-bottom: solid 0.0625rem var(--black);
+    }
+
+    div.projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1rem;
+    }
+
+    article {
+        margin: 0;
+        width: calc(50% - 0.625rem);
+    }
+
+    /* CONTACT */
+    section#Contact ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin: 1rem;
+    }
+
+    section#Contact li {
+        flex-basis: 100%;
+    }
+
+    section#Contact a {
+        margin: 0;
+    }
+
+    section#Contact a:hover,
+    section#Contact a:focus {
+        background-color: var(--accent);
+        color: var(--white);
+        border-color: var(--accent);
+    }
+
+    section#Contact a:active {
+        background-color: var(--accent-dark);
+    }
+
+    /* HEADINGS */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    /* TEXT */
+    p {
+        font-size: 1rem;
+    }
+
+    p a {
+        text-decoration: none;
+    }
+
+    p a:hover,
+    p a:focus {
+        text-decoration: underline;
+    }
+
+    p a:active {
+        color: var(--accent);
+    }
+}
